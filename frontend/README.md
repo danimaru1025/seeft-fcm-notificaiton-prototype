@@ -14,3 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## flutter CLIのローカルインストール
+### dev_dependencies に追加
+flutter pub add --dev flutterfire_cli
+
+### 実行時は dart run を使用
+dart run flutterfire_cli:flutterfire configure
+
+## Firebase CLI
+- グローバルインストールしなきゃダメらしいからしぶしぶグローバルインストール
